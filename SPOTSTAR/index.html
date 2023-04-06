@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpotStar</title>
+    <style>
+      .background{
+        background-image: url(./background/back2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* display: inline; */ 
+      }
+      #log{
+        height: 200px;
+        position: absolute;
+        display: inline;
+        top: 0px;
+        left: 0px;
+        filter: drop-shadow(10px 10px 5px black);
+      } 
+      .prt{
+        color: red;
+        height: 45px;
+        width: 167px;
+        vertical-align: m;
+      }
+      table.center {
+        margin-top: 130px;
+        margin-left: 500px;
+        margin-right: 500px;
+        border: 1px black solid;
+        background:rgb(7, 7, 7, 0.8);
+        border-radius: 4px;
+      }
+      .rtp{
+        font-family: Arial, Helvetica, sans-serif;
+        /* font-size: xx-large; */
+        color: white;
+        font-weight: 200;
+      }
+      td{
+        /* padding: 20px; */
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      .q{
+        border: 1px black solid;
+        height: 30px;
+        width: 300px;
+        border-radius: 4px;
+      }
+      .Login{
+        height: 30px;
+        width: 308px;
+        border: 1px black solid;
+        border-radius: 4px;
+        background: linear-gradient(yellow,red);
+      }
+      #esc{
+        text-decoration: none;
+      }
+      #cse{
+        
+        padding-top: 20px;
+      }
+      #te{
+        text-decoration: none;
+        color: white;
+      }
+      #te:hover{
+        text-decoration: underline;
+      }
+      #fn{
+        padding-top: 20px;
+      }
+      #ta{
+        padding-top: 20px;
+      }
+      .caps{
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+      }
+      #cap{
+        color: grey;
+      }
+      #cb{
+        accent-color: gray;
+      } 
+      #esc:hover{
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body class="background">
+    <img src="./background/321.png" alt="" id="log">
+    <div class="ln">
+      <table class="center">
+        <tbody>
+          <tr>
+            <td>
+              <h1 class="rtp">Sign in</h1>
+            </td>
+          </tr>
+          <tr>
+            <td class="pro" >
+              <label for="" class="caps"><b> Email or mobile phone number</b></label>
+            </td>
+          </tr>
+          <tr>
+            <td class="pro">
+              <input type="text" class="q" />
+            </td>
+          </tr>
+          <tr>
+            <td id="ta">
+              <label for="" class="caps"><b> Password </b></label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="password"  class="q"/>
+            </td>
+            <tr>
+              <td id="fn">
+                <a href="./home.html" ><button class="Login">Sign in</button></a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="checkbox" id="cb"><label for="" id="cap">Remember me.</label>
+              </td>
+            </tr>
+          </tr>
+          <tr>
+            <td>
+              <a href="./forgotpassword.html" id="esc" class="caps">Forgot you password?</a>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td id="cse" class="caps">New to Spotstar? <a href="./createaccount.html" id="te">Sign up now</a>.</td>    
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>

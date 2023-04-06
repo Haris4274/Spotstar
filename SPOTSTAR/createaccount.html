@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpotStar</title>
+    <style>
+      body{
+        background-image: url(./background/back2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline;
+      }
+      #h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      }
+      table.center{
+        margin-top: 130px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px black solid;
+        background: rgb(7, 7, 7, 0.8);
+        border-radius: 4px;
+      }
+      .n{
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+      }
+      #m{
+        text-decoration: none;
+        color: aqua;
+      }
+      td{
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      #b{
+        border: 1px black solid;
+        height: 30px;
+        width: 300px;
+        border-radius: 4px;
+      }
+      #but{
+        height: 30px;
+        width: 300px;
+        border: 1px black solid;
+        border-radius: 4px;
+        background: linear-gradient(yellow,red);
+        color: black;
+      }
+      #log{
+        height: 200px;
+        position: absolute;
+        display: inline;
+        top: 0px;
+        left: 435px;
+        filter: drop-shadow(10px 10px 5px black);
+      }
+      .pet{
+        padding: 20px;
+      }
+      #m:hover{
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./background/321.png" alt="" id="log">
+    <table class="center">
+      <tr>
+        <td><h1 id="h1">Create account</h1></td>
+      </tr>
+      <tr class="pet">
+        <td>
+          <label for="" class="n">Your name </label>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="text" placeholder="First and last name" class="n" id="b"/></td>
+      </tr>
+      <tr class="pet">
+        <td>
+          <label for="" class="n">Email </label>
+        </td>
+      </tr>
+      <tr><td>
+        <input type="text" id="b"/>
+      </td></tr>
+      <tr class="pet">
+        <td>
+          <label for="" class="n">Password </label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="password" placeholder="At least 6 characters" class="n" id="b"/>
+        </td>
+      </tr>
+      <tr class="pet">
+        <td>
+          <label for="" class="n">Re-enter password</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="password" id="b"/>
+        </td>
+      </tr>
+      <tr class="pet">
+        <td>
+          <input type="checkbox" /> <label for="" class="n">Terms & Conditions</label>
+        </td>
+      </tr>
+      <tr class="pet">
+        <td>
+          <a href="./index.html"><input type="button" value="Create your Spotstar account" class="n" id="but" /></a>
+        </td>
+      </tr>
+      <tr class="pet">
+        <td>
+          <label for="" class="n">Already have an account? <a href="./index.html" id="m">Sign in</a>.</label>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

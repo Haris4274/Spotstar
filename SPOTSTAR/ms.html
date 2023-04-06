@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpotStar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body{
+        background-image: url(./background/msv.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+      }
+      #log{
+        height: 150px;
+        position: absolute;
+        display: inline;
+        top: 0px;
+        left: 5px;
+        filter: drop-shadow(10px 10px 5px black);
+      }
+      #qs{
+        margin-top: 20px;
+        margin-left: 1000px;
+        height: 35px;
+        width: 250px;
+        border: 2px #333 solid;
+        border-radius: 20px;
+        background-color: white;
+        color: #919191;
+        font-size: 0.85em;
+        font-weight: 700;
+      }
+      #glass{
+        position: absolute;
+        margin-top: 33px;
+        margin-left: 1005px;
+        color: #919191;
+      }
+      table{
+        margin-top: 200px;
+        margin-left: 0px;
+        color: white;
+        font-size: 20px;
+      }
+      h1{
+        text-align: center;
+        margin-top: 100px;
+      }
+      label{
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./background/321.png" alt="" id="log">
+      <i class="fa-solid fa-magnifying-glass" id="glass"></i>
+      <input type="text" placeholder="     Quick search" id="qs">
+    </header>
+    <!-- <h1>M.S.Viswanathan Songs</h1> -->
+    <table>
+      <tr>
+        <td>
+          <label for="">Iravum pagalum</label>
+        </td>
+        <td>
+          <audio
+            src="./tamils/ms/Iravum-Pagalum-MassTamilan.io.mp3"
+            controls
+          ></audio>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">My name is billa</label>
+        </td>
+        <td>
+          <audio
+            src="./tamils/ms/My-Name-Is-Billa-MassTamilan.io.mp3"
+            controls
+          ></audio>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Ninaithale inikum</label>
+        </td>
+        <td>
+          <audio
+            src="./tamils/ms/Ninaithaale-Inikkum-Sugame-MassTamilan.io.mp3"
+            controls
+          ></audio>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="">Vethalai</label>
+        </td>
+        <td>
+          <audio
+            src="./tamils/ms/Vethalaya-Potendi-MassTamilan.io.mp3"
+            controls
+          ></audio>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
